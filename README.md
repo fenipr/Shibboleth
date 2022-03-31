@@ -223,6 +223,8 @@ send a shell to my netcat listener sitting on 9090.
 
 ![zabbix](zabbix_items_exploit.png)
 
+### zabbix user
+
 <br>
 I did some shell upgrading with python and exporting TERM to give me some basic
 shell features like clear screen or up arrow to run past commands.
@@ -253,6 +255,8 @@ root:x:0:0:root:/root:/bin/bash
 sync:x:4:65534:sync:/bin:/bin/sync
 ipmi-svc:x:1000:1000:ipmi-svc,,,:/home/ipmi-svc:/bin/bash
 ```
+
+### impi-svc user
 
 impi-svc user interesting... I just logged in the zabbix server with the ipmi credentials
 I found earlier maybe there's some password reuse going on here and I can just su over.
