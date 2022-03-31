@@ -1,11 +1,11 @@
-# Shibboleth
+# Zabbix box
 *Creators: knightmare, mrb3n*
 
 <br>
 <br>
 Summary:
 <br>
-Starting out Shibboleth has open ports on tcp 80, and udp 623. I first started out
+Starting this box has open ports on tcp 80, and udp 623. I first started out
 with enumerating the web server. There was an unfamiliar CMS running called bootstapmade,
 with the FlexStart theme. Further enumeration I found some virtual hosts routing to a zabbix server
 which is an open source tool to monitor IT infrastructure. Looking at the unusual UDP port, I found
